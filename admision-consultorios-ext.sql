@@ -1,1 +1,5 @@
 select * from rep_consultas where to_char(fecha, 'yyyymm') = '202406' order by fecha desc; //HAY QUE INVESTIGAR CUAL FECHA SE DEBE OBTENER
+
+/*
+LA SOLUCIÓN ES EJECUTAR EL PAC_POR_HORA CON EL USUARIO GENERADOR DE REPORTES 123456789, PENDIENTE
+*/
